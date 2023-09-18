@@ -23,8 +23,8 @@ export async function generateMetadata({
     slug,
   } = post;
   const ogImage = image
-    ? `https://leerob.io${image}`
-    : `https://leerob.io/og?title=${title}`;
+    ? `https://cobena.dev${image}`
+    : `https://cobena.dev/og?title=${title}`;
 
   return {
     title,
@@ -34,7 +34,7 @@ export async function generateMetadata({
       description,
       type: 'article',
       publishedTime,
-      url: `https://leerob.io/blog/${slug}`,
+      url: `https://cobena.dev/blog/${slug}`,
       images: [
         {
           url: ogImage,
@@ -86,11 +86,6 @@ export default async function Blog({ params }) {
     notFound();
   }
 
-  const [allViews, tweets] = await Promise.all([
-    getViewsCount(),
-    getTweets(post.tweetIds),
-  ]);
-
   return (
     <section>
       <script type="application/ld+json" suppressHydrationWarning>
@@ -103,9 +98,8 @@ export default async function Blog({ params }) {
         <p className="text-sm text-neutral-600 dark:text-neutral-400">
           {formatDate(post.publishedAt)}
         </p>
-        <ViewCounter allViews={allViews} slug={post.slug} trackView />
       </div>
-      <Mdx code={post.body.code} tweets={tweets} />
+      <Mdx code={post.body.code} />
     </section>
   );
 }

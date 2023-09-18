@@ -23,17 +23,17 @@ const graphik = localFont({
 });
 
 export const metadata: Metadata = {
-  metadataBase: new URL('https://leerob.io'),
+  metadataBase: new URL('https://cobena.dev'),
   title: {
-    default: 'Lee Robinson',
-    template: '%s | Lee Robinson',
+    default: 'Ariel Cobena',
+    template: '%s | Ariel Cobena',
   },
   description: 'Developer, writer, and creator.',
   openGraph: {
     title: 'Lee Robinson',
     description: 'Developer, writer, and creator.',
-    url: 'https://leerob.io',
-    siteName: 'Lee Robinson',
+    url: 'https://cobena.dev',
+    siteName: 'Ariel Cobena',
     locale: 'en-US',
     type: 'website',
   },
@@ -49,7 +49,7 @@ export const metadata: Metadata = {
     },
   },
   twitter: {
-    title: 'Lee Robinson',
+    title: 'Ariel Cobena',
     card: 'summary_large_image',
   },
   verification: {
