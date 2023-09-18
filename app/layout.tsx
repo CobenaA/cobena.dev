@@ -28,10 +28,10 @@ export const metadata: Metadata = {
     default: 'Ariel Cobena',
     template: '%s | Ariel Cobena',
   },
-  description: 'Developer, writer, and creator.',
+  description: 'Developer',
   openGraph: {
-    title: 'Lee Robinson',
-    description: 'Developer, writer, and creator.',
+    title: 'Ariel Cobena',
+    description: 'Developer',
     url: 'https://cobena.dev',
     siteName: 'Ariel Cobena',
     locale: 'en-US',

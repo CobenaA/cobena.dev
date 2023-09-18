@@ -6,7 +6,7 @@ export default async function sitemap() {
     lastModified: post.publishedAt,
   }));
 
-  const routes = ['', '/blog', '/guestbook', '/uses'].map(
+  const routes = ['', '/work', '/projects', '/contact'].map(
     (route) => ({
       url: `https://cobena.dev${route}`,
       lastModified: new Date().toISOString().split('T')[0],
