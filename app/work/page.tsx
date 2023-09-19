@@ -32,7 +32,7 @@ export default function WorkPage() {
         <ul>
           <li>Designed and implemented new self-serve mechanism for transitions between Lyft Pink membership plans</li>
           <li>Collaborated cross-functionally to identify unaccounted edge-cases, update support pages, and relay dev/ roll-out progress to stakeholders</li>
-          <li><b>Python</b>, <b>RPC</b>, <a href={"https://eng.lyft.com/the-journey-to-server-driven-ui-at-lyft-bikes-and-scooters-c19264a0378e"}><b>Server-Driven UI</b></a></li>
+          <li><b>Python</b>, <b>gRPC</b>, <a href={"https://eng.lyft.com/the-journey-to-server-driven-ui-at-lyft-bikes-and-scooters-c19264a0378e"}><b>Server-Driven UI</b></a></li>
         </ul>
         <div>
           <h3 id="twitch">Twitch</h3>
