@@ -61,7 +61,7 @@ export default function WorkPage() {
         </div>
         <ul>
           <li>Worked within a 3 intern pod to develop a platform that allows users to watch Youtube videos together in rooms</li>
-          <li>Implemented YouTube video player with syncronization between multiple clients</li>
+          <li>Implemented YouTube video player with synchronization between multiple clients</li>
           <li><b>Java</b>, <b>Google Cloud</b>, <b>jQuery</b></li>
         </ul>
         <div>
